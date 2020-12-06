@@ -15,6 +15,7 @@ import com.puzza.schoolmanagement.Exception.TeacherException;
 import com.puzza.schoolmanagement.Model.Teacher;
 import com.puzza.schoolmanagement.Service.TeacherServices;
 
+import springfox.documentation.swagger2.annotations.EnableSwagger2;
 @RestController
 @RequestMapping("/api/teacher")
 public class TeacherConteoller {
